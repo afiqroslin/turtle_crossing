@@ -18,3 +18,8 @@ class Player(Turtle):
     def up(self):
         self.forward(MOVE_DISTANCE)
 
+    def cross_success(self):
+        self.goto(STARTING_POSITION)
+
+
+
