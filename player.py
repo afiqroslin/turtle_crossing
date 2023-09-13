@@ -17,8 +17,4 @@ class Player(Turtle):
 
     def up(self):
         self.forward(MOVE_DISTANCE)
-        # new_y = self.ycor() + 50
-        # self.goto(self.xcor(), new_y)
-        # print(new_y)
-
 
